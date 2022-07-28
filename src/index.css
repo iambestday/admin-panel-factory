@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: YekanBakh;
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('../src/assets/fonts/YekanBakh/YekanBakh-Regular.woff2') format('woff2'),
+    url('../src/assets/fonts/YekanBakh/YekanBakh-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: YekanBakh;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../src/assets/fonts/YekanBakh/YekanBakh-Medium.woff2') format('woff2'),
+    url('../src/assets/fonts/YekanBakh/YekanBakh-Medium.ttf') format('truetype');
+}
+
+.button{
+
+color:#1521;
+
+}
+body {
+  overflow: hidden;
+  font-family: 'YekanBakh';
+  margin:0;
+  
+}
+
+.rtl-grid {
+  direction: rtl;
+}
+
+@layer components {
+  .menu-horizontal{
+    @apply flex flex-row overflow-x-scroll w-auto snap-x;
+  }
+  .menu-horizontal::-webkit-scrollbar{
+    @apply hidden;
+  }
+  
+  .menu-horizontal > :where(li) > :where(ul) {
+    @apply  w-max;
+  
+}
+.table {
+  @apply  z-auto;
+}
+  
+
+.btn-group:not(.btn-group-vertical) > .btn:not(:last-of-type) {
+  @apply rounded-l-sm;
+
+}
+.btn-group:not(.btn-group-vertical) > .btn:not(:first-of-type) {
+  @apply rounded-r-sm;
+}
+
+
+}

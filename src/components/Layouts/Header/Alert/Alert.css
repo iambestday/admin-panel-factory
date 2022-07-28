@@ -1,0 +1,9 @@
+
+.alerts {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 1rem/* 16px */;
+    border-radius: 1rem;
+   
+}

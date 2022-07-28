@@ -1,0 +1,8 @@
+.small__main{
+    height: calc(100vh - 300px);
+}
+@media (min-width: 640px) {
+.large__main{
+    height: calc(100vh - 170px);
+}
+}

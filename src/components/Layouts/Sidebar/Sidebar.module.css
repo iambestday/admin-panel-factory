@@ -1,0 +1,26 @@
+
+  .ul__scroll {
+   
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 1rem 0;
+    overflow-x: scroll;
+    scroll-padding-left: 1rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .ul__scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .ul__scroll .li__scroll {
+    padding: 0 1rem 0 0;
+    scroll-snap-align: start; /* or: center */
+    scroll-snap-stop: always;
+  }
+  .ul__scroll .li__scroll div.ul__scroll--items {
+    align-items: right;
+    width: max-content;
+    padding: 1rem 1rem;
+  }
