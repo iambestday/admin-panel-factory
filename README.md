@@ -6,6 +6,8 @@ Hi guys, This is admin panel (minmal ERP) for small bussines
 
 
 ##  👀 Demo 
+![my-factory](https://user-images.githubusercontent.com/94782242/183248951-f7dac541-6f3d-424c-9ab8-8069933622dc.png)
+
 https://admin-panel-factory.vercel.app/
 
 ## Roadmap 👨‍💻
