@@ -21,15 +21,21 @@
 }
 
 .button{
-
 color:#1521;
-
 }
+
+html {
+  height: fill-available;
+  height: -webkit-fill-available;
+}
+
 body {
   overflow: hidden;
   font-family: 'YekanBakh';
   margin:0;
-  
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
 }
 
 .rtl-grid {
