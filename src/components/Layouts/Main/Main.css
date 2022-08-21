@@ -1,8 +1,6 @@
 .small__main{
-  min-height: 100vh;
-  min-height: fill-available;
-  min-height: -webkit-fill-available;
-  }
+    height: calc(100vh - 300px);
+}
 @media (min-width: 640px) {
 .large__main{
     height: calc(100vh - 170px);
